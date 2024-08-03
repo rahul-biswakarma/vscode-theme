@@ -5,8 +5,6 @@
 }
 
 .line-numbers {
-	position: relative !important;
-	width: 35px !important;
 	font-size: 16px !important;
 	font-family: 'Geist Mono' !important;
 	opacity: .3;
@@ -85,13 +83,13 @@
 }
 
 /* Scroll Bar */
-/* .slider {
+.slider {
     position: absolute !important;
     right: 1px !important;
     width: 1px !important;
     background: #bc9abc !important;
     left: auto !important;
-} */
+}
 
 .codicon-toolbar-more,
 .codicon-word-wrap {
@@ -140,7 +138,7 @@
 }
 
 /* Find Input */
-.monaco-findInput {
+.find-part .monaco-findInput {
 	background-color: rgba(240, 135, 189, 0.1) !important;
 	font-family: "Geist Mono" !important;
 	font-size: 14px !important;
