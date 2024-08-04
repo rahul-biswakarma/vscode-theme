@@ -36,7 +36,7 @@
 
 /* List item label name */
 .monaco-list.list_id_1 .monaco-list-row.selected .label-name {
-	color: #fff !important;
+	/* color: #fff !important; */
 	opacity: 1 !important;
 }
 
@@ -49,9 +49,9 @@
 .monaco-tree .monaco-tree-row .label-name,
 .monaco-list .monaco-list-row .monaco-icon-label .label-name {
 	font-family: 'Geist Mono', monospace !important;
-	font-size: 14px !important;
+	font-size: 13px !important;
 	font-weight: 400 !important;
-	color: #FFF !important;
+	/* color: #FFF !important; */
 }
 
 /* Sidebar top shadow */
