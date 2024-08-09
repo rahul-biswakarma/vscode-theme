@@ -1,12 +1,12 @@
 /* Code comment style */
 .mtk3 {
-	font-family: 'Monaspace Radon', monospace !important;
+	font-family: 'JetBrains Mono', monospace !important;
 	color: #008c7d !important;
 }
 
 .line-numbers {
 	font-size: 16px !important;
-	font-family: 'Geist Mono' !important;
+	font-family: 'JetBrains Mono' !important;
 	opacity: .3;
 }
 
@@ -19,6 +19,14 @@
 /* Toolbars when tabs are enabled. */
 .monaco-workbench .part.editor > .content .editor-group-container > .title .editor-actions {
 	display: none !important;
+}
+
+.label-name {
+	font-family: 'JetBrains Mono' !important;
+}
+
+.action-item.command-center-center {
+	margin: 0 !important;
 }
 
 /* Side bar */
@@ -48,7 +56,7 @@
 /* File Explorer Item Label */
 .monaco-tree .monaco-tree-row .label-name,
 .monaco-list .monaco-list-row .monaco-icon-label .label-name {
-	font-family: 'Geist Mono', monospace !important;
+	font-family: 'JetBrains Mono ', monospace !important;
 	font-size: 13px !important;
 	font-weight: 400 !important;
 	/* color: #FFF !important; */
@@ -98,7 +106,7 @@
 
 /* Context View */
 .action-widget {
-	font-family: 'Monaspace Radon', monospace !important;
+	font-family: 'JetBrains Mono', monospace !important;
 	border-radius: 0px !important;
 	background: rgba(28, 30, 40, 0.4) !important;
 	backdrop-filter: blur(20px) !important;
@@ -106,14 +114,14 @@
 }
 
 .actions-container {
-	font-family: 'Monaspace Radon', monospace !important;
+	font-family: 'JetBrains Mono', monospace !important;
 	background-color: transparent !important;
 }
 
 /* Tooltip box style */
 .monaco-editor-hover,
 .monaco-hover {
-	font-family: 'Monaspace Radon', monospace !important;
+	font-family: 'JetBrains Mono', monospace !important;
 	box-shadow: 0px 8px 32px rgba(0, 0, 0, .25) !important;
 	padding: 10px !important;
 	background: rgba(28, 30, 40, 0.4) !important;
@@ -140,7 +148,7 @@
 /* Find Input */
 .find-part .monaco-findInput {
 	background-color: rgba(240, 135, 189, 0.1) !important;
-	font-family: "Geist Mono" !important;
+	font-family: "JetBrains Mono" !important;
 	font-size: 14px !important;
 }
 
@@ -153,8 +161,8 @@
 
 /* Search Label */
 .search-label {
-	font-family: 'Geist Mono' !important;
-	font-size: 14px !important;
+	font-family: 'JetBrains Mono' !important;
+	font-size: 13px !important;
 	color: #fff;
 	display: block;
 }
@@ -222,7 +230,7 @@
 	padding: 8px !important;
 	border: none !important;
 	background-color: rgba(240, 135, 189, 0.1) !important;
-	font-family: "Geist Mono" !important;
+	font-family: "JetBrains Mono " !important;
 	font-size: 14px !important;
 	margin-bottom: 16px !important;
 }
